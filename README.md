@@ -1,41 +1,39 @@
-# Website
+# Facturator Pro 3 Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este repositorio contiene la documentación para Facturator Pro 3.
 
-### Installation
+## Clonar el Repositorio
 
-```
-$ yarn
-```
+Para comenzar, puedes clonar este repositorio utilizando GitHub CLI (gh) con el siguiente comando:
 
-### Local Development
-
-```
-$ yarn start
+```bash
+gh repo clone LuisLopez-developer/facturator-pro-3-documentation
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+> [!IMPORTANT]
+> Si no tienes GitHub CLI instalado, también puedes clonar el repositorio manualmente o utilizando Git:
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+git clone https://github.com/LuisLopez-developer/facturator-pro-3-documentation.git
 ```
 
-Not using SSH:
+## Instalar Dependencias
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+Una vez que hayas clonado el repositorio, navega al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+
+```bash
+cd facturator-pro-3-documentation
+npm install
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Levantar el Servidor Local
+
+Después de instalar las dependencias, puedes levantar un servidor local para visualizar la documentación en tu navegador. Utiliza el siguiente comando:
+
+```bash
+npm start
+```
+
+Esto iniciará el servidor local de Docosaurus. Una vez que esté en funcionamiento, puedes acceder a la documentación en tu navegador web visitando http://localhost:3000.
+
+¡Y eso es todo! Ahora estás listo para explorar y trabajar con la documentación de Facturator Pro 3.
