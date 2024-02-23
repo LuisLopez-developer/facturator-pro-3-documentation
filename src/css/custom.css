@@ -1,0 +1,63 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2346E8;
+  --ifm-color-primary-dark: #2346E8;
+  --ifm-color-primary-darker: #2346E8;
+  --ifm-color-primary-darkest: #020E3C;
+  --ifm-color-primary-light: #2346E8;
+  --ifm-color-primary-lighter: #07dbf3;
+  --ifm-color-primary-lightest: #07dbf3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-heading-color: #385adb;
+  --ifm-hover-overlay: #f6f8fe;
+  --ifm-color-emphasis-700: #172634;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0f6af3;
+  --ifm-color-primary-dark: #1a2e77; 
+  --ifm-color-primary-darker: #1a2e77; 
+  --ifm-color-primary-darkest: #808080;
+  --ifm-color-primary-light: #4665EC;
+  --ifm-color-primary-lighter: #07dbf3;
+  --ifm-color-primary-lightest: #07dbf3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-heading-color: #ffffff; 
+  --ifm-hover-overlay: #f6f8fe;
+  --ifm-color-emphasis-700: #172634;
+}
+
+
+.img-recortada {
+  width: 576px; 
+  height: 142px; 
+  overflow: hidden;
+}
+.img-recortada img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-recortada-arriba {
+  width: 576px;
+  overflow: hidden;
+}
+
+.img-recortada-arriba img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: -142px; /* Recorta desde la parte superior */
+}
