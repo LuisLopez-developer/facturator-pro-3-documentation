@@ -2,6 +2,18 @@
 
 Este repositorio contiene la documentación para Facturator Pro 3.
 
+## Antes de empezar 🚀
+
+- [Node.js 16+ (recomendado 18 LTS)](https://nodejs.org/en/).
+- Tener instalado NPM (recomendado V10.4+).
+
+si deseas revisar las versiones:
+```bash
+node -v
+npm -v
+```
+
+
 ## Clonar el Repositorio
 
 Para comenzar, puedes clonar este repositorio utilizando GitHub CLI (gh) con el siguiente comando:
